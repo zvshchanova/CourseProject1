@@ -1,0 +1,7 @@
+nav li a{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    text-transform: uppercase;
+    font-weight: bold; 
+    color: white;
+    padding: 15px;
+}
