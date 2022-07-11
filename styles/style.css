@@ -1,7 +1,29 @@
+body{
+    position: relative;
+    background: url(images/bg_purp.jpg) no-repeat fixed center top;
+    background: url("https://quezzle.se/img/1st_bg.jpg") no-repeat fixed center top;
+    background-size: cover;
+    /* background-image:url("https://quezzle.se/img/1st_bg.jpg")  no-repeat ; */
+}
+
 nav li a{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
     text-transform: uppercase;
     font-weight: bold; 
-    color: white;
-    padding: 15px;
+}
+
+@media screen and (max-width: 960px) {
+            nav li a{ 
+                font-size: smaller;
+            }
+            nav img{
+                width: 90px;
+            }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+header{
+    background-image: url("https://quezzle.se/img/header-bg.jpg");
+    background-size: cover;
 }
