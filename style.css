@@ -43,8 +43,7 @@ dropdown-menu li a {
     nav li a {
         font-size: smaller;
     }
-
     nav img {
-        width: 90px;
+        width: 90%;
     }
 }
