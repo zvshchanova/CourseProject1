@@ -1,0 +1,133 @@
+.blog {
+    background-color: white;
+    text-align: center;
+    color: #333333;
+    padding: 60px 15px 60px 15px;
+}
+
+.blogArticles {
+    display: inline;
+}
+
+.titles {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0px 60px 0px;
+}
+
+.titlesSmall {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.textSize16 {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.textBlog {
+    text-decoration: none;
+    color: #333333;
+}
+
+.textBlog:hover {
+    text-decoration: underline;
+    color: gray;
+
+}
+
+.room {
+    position: relative;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 280px;
+    background-size: cover;
+
+
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    width: 75px;
+    height: 75px;
+
+
+}
+
+.titleRooms {
+    position: absolute;
+    left: 110px;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+.titleRooms:hover {
+    text-decoration: underline;
+    font-size: 26px;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.roomsButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: rgba(134, 10, 97, 0.196);
+    color: white;
+    padding: 30px 40px;
+    font-size: 24px;
+}
+
+.roomsButton:hover {
+    color: white;
+}
+
+.roomsInfo {
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    width: 100%;
+}
+
+.logoSmall {
+    width: 32px;
+    margin-bottom: 5px;
+}
+
+.onlineTBposition {
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    
+}
+
+.marginRow {
+        margin-right: -15px;
+        margin-left: -15px;
+}
+@media
+col-lg-6 {
+    width: 50%;
+}
