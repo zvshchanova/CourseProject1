@@ -66,10 +66,6 @@
                                 <li><a href="#" class="dropdown-item ">Swedish</a></li>
                             </ul>
                         </li>
-
-                    </ul>
-                </div>
-            </div>
         </nav>
     </div>
     <!-- T2-11 -->
@@ -326,7 +322,44 @@
             </div>
         </div>
     </section>
-    <!-- T2-15 -->
+    <!-- T2-16 -->
+    <section id="contact" class="container">
+        <h1 class="text-center text-white my-5">CONTACT US</h1>
+        <form action="/action_page.php" method="post" class="row justify-content-center mb-5">
+
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="formName" name="formName" placeholder="Your full name *"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="formEmail" name="formEmail" placeholder="Your email *"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <input type="tel" class="form-control" id="formPhone" name="formPhone"
+                        placeholder="Your mobile phone (including country calling code) *" required>
+                </div>
+            </div>
+            <!-- second column -->
+            <div class="col-md-6 d-flex align-items-stretch mb-3">
+                <textarea class="form-control d-flex align-items-stretch" id="formMessage" name="formMessage" placeholder="Message *" rows="3" required></textarea>
+            </div>
+            <!-- recaptcha -->
+            <div class="mb-4">
+                <div><iframe title="reCAPTCHA"
+                        src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Lcrq7YUAAAAAHwMZ6c3Hz_ozig7Hh2PBWPNYqZj&amp;co=aHR0cHM6Ly9xdWV6emxlLnNlOjQ0Mw..&amp;hl=en&amp;v=4rwLQsl5N_ccppoTAwwwMrEN&amp;size=normal&amp;cb=evimfb557vh7"
+                        width="304" height="78" role="presentation" name="a-wsl2zhyrdjyk" frameborder="0" scrolling="no"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                    style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+            </div><iframe style="display: none;"></iframe></div>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="col-2 btn bg-transparent border btn-block mb-4 text-white p-2">Send!</button>
+        </form>
+    </section>
+
 </body>
 
 </html>
