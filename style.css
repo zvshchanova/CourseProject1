@@ -1,9 +1,23 @@
 body {
+    min-width: 500px;
     background: url("https://quezzle.se/img/1st_bg.jpg") center center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
-
+header {
+    position: relative;
+}
+header img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+}
+.textHeader {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .wrap-nav {
     position: absolute;
     top: 0px;
@@ -38,12 +52,30 @@ dropdown-menu li a {
 .navbar-default .navbar-toggler {
     border: 1px solid white;
 }
-
-@media screen and (max-width: 960px) {
+@media only screen and (min-width: 992px) {
+    #about .vert{
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 992px) {
     nav li a {
         font-size: smaller;
     }
     nav img {
         width: 90%;
+    }
+    #about .vert{
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #about .vert{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about .vert{
+        height: 500px;
     }
 }
