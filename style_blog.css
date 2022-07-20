@@ -26,7 +26,6 @@
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-
 }
 
 .textSize16 {
@@ -42,7 +41,10 @@ p {
 .textBlog:hover {
     text-decoration: underline;
     color: gray;
+}
 
+.row {
+    justify-content: center;
 }
 
 .room {
@@ -54,11 +56,20 @@ p {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+    margin-left: 2%;
     border-radius: 10px;
     height: 280px;
     background-size: cover;
+}
 
+@media only screen and (min-width: 768px) {
+    .room {
+        width: 48%;
+    }
+}
 
+.room100 {
+    width: 98%;
 }
 
 .logo {
@@ -66,8 +77,6 @@ p {
     left: 15px;
     width: 75px;
     height: 75px;
-
-
 }
 
 .titleRooms {
@@ -78,7 +87,6 @@ p {
     font-family: Montserrat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
     font-weight: bold;
-
 }
 
 .titleRooms:hover {
@@ -121,7 +129,6 @@ p {
     position: absolute;
     top: 125px;
     left: 20px;
-
 }
 
 .marginRow {
