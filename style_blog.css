@@ -23,6 +23,12 @@
     font-weight: bolder;
 }
 
+.titlesMedium {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -115,9 +121,10 @@ p {
 
 .roomsInfo {
     position: absolute;
-    bottom: 4px;
+    bottom: -4px;
     display: flex;
     width: 100%;
+    line-height: 15px;
 }
 
 .logoSmall {
@@ -137,9 +144,44 @@ p {
 }
 
 .faq {
-    background-color: rgba(255,255,255,.03);
+    background-color: rgba(255, 255, 255, .03);
     text-align: left;
     color: white;
     padding: 60px 15px 60px 15px;
     width: 100%;
+}
+
+.foot {
+    background-color: rgba(255, 255, 255, .03);
+    text-align: center;
+    color: white;
+    padding: 30px 0px 30px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.wiki {
+    background-color: rgba(255, 254, 254, 0.06);
+    border-radius: 15px;
+    padding: 25px 0px 15px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TripAdvLogo {
+    position: relative;
+    bottom: 20px;
+}
+
+.socialMargin {
+    margin-left: 45px;
 }
