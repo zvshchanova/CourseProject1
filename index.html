@@ -15,15 +15,18 @@
 
 <body>
     <!-- T2-4 -->
-    <header class="container-fluid">
+    <header>
         <img src="https://quezzle.se/img/header-bg.jpg" alt="background-image">
-
-        <div class="col-12 text-white text-center textHeader">
-            <h2>ESCAPE ROOM STOCKHOLM!</h2>
-            <h5 class="fst-italic">You will find yourself in an intellectual game atmosphere where there is only one way
-                out. </h5>
-            <br>
-            <h5 class="fst-italic">Find solutions, use clues, solve riddles and puzzles.</h5>
+        <div class="container-fluid">
+            <div class="col-12 text-white text-center textHeader">
+                <h2 class="titles">ESCAPE ROOM STOCKHOLM!</h2>
+                <h4 class="fst-italic">You will find yourself in an intellectual game atmosphere where there is only one
+                    way out.</h4>
+                <h4 class="fst-italic">Find solutions, use clues, solve riddles and puzzles.</h4>
+                <br>
+                <br>
+                <a class="bookButton" href="#rooms">BOOK NOW!</a>
+            </div>
         </div>
     </header>
     <!-- T2-3 -->
@@ -36,7 +39,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand d-none d-md-block" href="#"></a>
-                <div class="collapse navbar-collapse " id="navbarToggler">
+                <div class="collapse navbar-collapse navPosition" id="navbarToggler">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
                             <a class="nav-link " href="#rooms">ROOMS</a>
@@ -70,10 +73,6 @@
         </nav>
     </div>
     <!-- T2-3 -->
-
-    <!-- Удалить, когда будет header  -->
-    <div style="height: 300px"></div>
-    <!-- Удалить, когда будет header  -->
     <!-- T2-22 -->
     <gisection id="rooms" style="padding: 15px;">
         <div class="container overflow-hidden">
@@ -202,7 +201,7 @@
         <!-- T2-22 -->
         <!-- T2-11 -->
         <section id="rules" class="container text-center text-white mb-5">
-            <h1 class="my-5">RULES</h1>
+            <h1 class="my-5 titles">RULES</h1>
             <div class="row justify-content-center">
                 <div class="col-sm-4">
                     <img src="https://quezzle.se/img/icon-teamwork.png" alt="">
@@ -263,7 +262,7 @@
         <!-- T2-13 -->
         <section id="about" class="container text-center text-white mb-5">
             <div class="row"></div>
-            <h1 class="my-5">How it works</h1>
+            <h1 class="my-5 titles">HOW IT WORKS</h1>
             <div class="row g-0">
                 <div class="col-5 text-end p-3">
                     <h4>On site</h4>
@@ -485,7 +484,7 @@
         </section>
         <!-- T2-16 -->
         <section id="contact" class="container">
-            <h1 class="text-center text-white my-5">CONTACT US</h1>
+            <h1 class="text-center text-white my-5 titles">CONTACT US</h1>
             <form action="/action_page.php" method="post" class="row justify-content-center mb-5">
 
                 <div class="col-md-6">
@@ -520,7 +519,7 @@
                 </div>
                 <!-- Submit button -->
                 <button type="submit"
-                    class="col-2 btn bg-transparent border btn-block mb-4 text-white p-2">Send!</button>
+                    class="col-2 bookButton bg-transparent">SEND!</button>
             </form>
         </section>
         <!-- T2-16 -->
