@@ -11,10 +11,11 @@
 
 .titles {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
     margin: 40px 0px 60px 0px;
     text-align: center;
+    text-shadow: 0px 0px 5px;
 }
 
 .titlesSmall {
@@ -100,6 +101,18 @@ p {
     font-size: 26px;
     font-family: Montserrat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
+}
+
+.bookButton {
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: rgba(134, 10, 97, 0.196);
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .roomsButton {
