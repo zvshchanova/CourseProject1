@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    min-width: 500px;
     background: url("https://quezzle.se/img/1st_bg.jpg") center center no-repeat fixed;
     background-size: cover;
     position: relative;
@@ -74,34 +73,18 @@ dropdown-menu li a {
     border: 1px solid white;
 }
 
-@media only screen and (min-width: 992px) {
-    #about .vert {
-        height: 150px;
-    }
+#about .row {
+    justify-content: start;
 }
 
-@media only screen and (max-width: 992px) {
-    nav li a {
-        font-size: smaller;
-    }
-
-    nav img {
-        width: 90%;
-    }
-
+@media only screen and (min-width: 768px) {
     #about .vert {
-        height: 250px;
+        height: 160px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     #about .vert {
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #about .vert {
-        height: 500px;
+        height: 320px;
     }
 }
