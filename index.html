@@ -14,55 +14,38 @@
 </head>
 
 <body>
-    <!-- T2-4 -->
-    <header>
-        <img src="https://quezzle.se/img/header-bg.jpg" alt="background-image">
-        <div class="container-fluid">
-            <div class="col-12 text-white text-center textHeader">
-                <h2 class="titles">ESCAPE ROOM STOCKHOLM!</h2>
-                <h4 class="fst-italic">You will find yourself in an intellectual game atmosphere where there is only one
-                    way out.</h4>
-                <h4 class="fst-italic">Find solutions, use clues, solve riddles and puzzles.</h4>
-                <br>
-                <br>
-                <a class="bookButton" href="#rooms">BOOK NOW!</a>
-            </div>
-        </div>
-    </header>
-    <!-- T2-3 -->
-    <div class="container wrap-nav">
-        <nav class="navbar navbar-expand-md navbar-default bg-transparent">
-            <div class="container-lg">
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
-                    aria-label="Toggle navigation">
+    <header class="w-100 vh-100 ">
+        <nav class="navbar navbar-expand-lg navbar-default bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand d-none d-md-block" href="#"></a>
-                <div class="collapse navbar-collapse navPosition" id="navbarToggler">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
+                <div class="collapse navbar-collapse " id="navbarToggler">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="#rooms">ROOMS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="#rules">Rules</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="#about">How?</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="#faq">FAQ</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="">Gift Card</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-auto">
                             <a class="nav-link " href="#contact">Contact Us</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ms-auto">
                             <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button"
                                 aria-expanded="false">Language</a>
                             <ul class="dropdown-menu">
@@ -70,10 +53,24 @@
                                 <li><a href="#" class="dropdown-item ">Swedish</a></li>
                             </ul>
                         </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
-    <!-- T2-3 -->
-    <!-- T2-22 -->
+        <!-- <div class="col-12 text-white text-center textHeader position-absolute top-50"> -->
+        <div class="col-12 text-white text-center textHeader mt-5">
+            <!-- mt-5 my-auto -->
+            <h2 class="titles">ESCAPE ROOM STOCKHOLM!</h2>
+            <h4 class="fst-italic">You will find yourself in an intellectual game atmosphere where there is only
+                one
+                way out.</h4>
+            <h4 class="fst-italic">Find solutions, use clues, solve riddles and puzzles.</h4>
+            <br>
+            <br>
+            <a class="bookButton" href="#rooms">BOOK NOW!</a>
+        </div>
+    </header>
+
     <gisection id="rooms" style="padding: 15px;">
         <div class="container overflow-hidden">
             <div class="row  marginRow">
@@ -198,8 +195,6 @@
             </div>
         </div>
         </section>
-        <!-- T2-22 -->
-        <!-- T2-11 -->
         <section id="rules" class="container text-center text-white mb-5">
             <h1 class="my-5 titles">RULES</h1>
             <div class="row justify-content-center">
@@ -482,7 +477,6 @@
                 </div>
             </div>
         </section>
-        <!-- T2-16 -->
         <section id="contact" class="container">
             <h1 class="text-center text-white my-5 titles">CONTACT US</h1>
             <form action="/action_page.php" method="post" class="row justify-content-center mb-5">
@@ -517,13 +511,12 @@
                         style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
                 </div><iframe style="display: none;"></iframe></div>
                 </div>
-                <!-- Submit button -->
+                <!-- Submit button  -->
                 <button type="submit"
-                    class="col-2 bookButton bg-transparent">SEND!</button>
+                    class="col-xs-6 col-sm-3 col-lg-2 mb-4 py-3 fs-5 fw-bold text-white bg-transparent border">SEND!</button>
+                <!-- <button type="button" class="btn btn-lg fs-5 fw-bold text-white bg-transparent border">Primary</button> -->
             </form>
         </section>
-        <!-- T2-16 -->
-        <!-- T2-17 -->
         <footer class="foot">
             <div class="container">
                 <div class="row">
@@ -586,7 +579,6 @@
                 </div>
             </div>
         </footer>
-        <!-- T2-16 -->
 </body>
 
 </html>
